@@ -527,14 +527,6 @@
   }
 }
 
-@media only screen and (max-width: 769px) and (min-width: 767px) {
-  .box-container {
-    width: 70px;
-    top: 38%;
-    transform: translateY(-25%);
-  }
-}
-
 @media only screen and (max-width: 768px) {
   #pc-img {
     top: 75%;
@@ -690,7 +682,7 @@
 
   .box-container {
     width: 150px;
-    top: 30%;
+    top: 28%;
     transform: translateY(-25%);
   }
 }
@@ -706,5 +698,13 @@
   }
   .box-container .orange-box {
     height: 90px;
+  }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 767px) {
+  .box-container {
+    width: 70px;
+    top: 38%;
+    transform: translateY(-25%);
   }
 }
